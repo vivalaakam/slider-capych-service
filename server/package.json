@@ -1,0 +1,21 @@
+{
+  "name": "slider-captcha-service",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.1",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/uuid": "^9.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jimp": "^0.22.10",
+    "redis": "^4.6.7",
+    "uuid": "^9.0.0"
+  }
+}

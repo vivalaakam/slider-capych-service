@@ -1,0 +1,16 @@
+{
+  "name": "slider-captcha-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn run:server & yarn run:cliend",
+    "run:server": "ts-node ./server/src/index.ts",
+    "run:cliend": "vite ./client"
+  },
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}

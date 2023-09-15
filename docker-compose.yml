@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  redis:
+    container_name: slider_captcha_service
+    image: redis:alpine
+    restart: always
+    ports:
+      - 6379:6379
